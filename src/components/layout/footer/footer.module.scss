@@ -1,0 +1,14 @@
+.footer {
+  min-height: 70px;
+  background-color: LightBlue;
+
+  &__container {
+    max-width: 765px;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    font-size: 20px;
+  }
+}

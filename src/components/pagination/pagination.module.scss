@@ -1,0 +1,23 @@
+
+.pagination {
+  display: flex;
+  border-radius: 5px;
+  border: solid 1px black;
+  width: fit-content;
+
+
+  & * {
+    list-style: none;
+  }
+}
+
+.page-item {
+  padding: 10px;
+  cursor: pointer;
+  
+}
+
+.active {
+  background-color: MediumSlateBlue;
+  color: Seashell;
+}
